@@ -1,0 +1,7 @@
+x= int(input("enter a"))
+y = int(input("enter b"))
+x = x + y;
+y = x - y; 
+x = x - y; 
+print("a=",x)
+print("b=",y)
