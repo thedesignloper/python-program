@@ -1,0 +1,10 @@
+def fact(a):
+    if(a<=1):
+        return 1
+    else:
+        return a*fact(a-1)
+t=1
+while(t>0):
+    a=int(input())
+    f=fact(a)
+    print(f)
